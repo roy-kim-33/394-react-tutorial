@@ -1,7 +1,7 @@
 import Course from './Course.js'
 
 const CourseList = ({ courses }) => (
-    <div>
+    <div className="course-list">
         {Object.values(courses).map(course => <Course key={course.id} course={course} />)}
     </div>
 );
