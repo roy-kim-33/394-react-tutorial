@@ -1,4 +1,4 @@
-const terms = { F: 'Fall', W: 'Winter', S: 'Spring' };
+
 
 const getCourseTerm = course => (
   terms[course.id.charAt(0)]
